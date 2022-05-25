@@ -1,0 +1,9 @@
+const kelvin = 293; //today's forecast in kelvin
+const celcius = kelvin - 273; //converts kelvin to celcius
+let farenheit = celcius * (9 / 5) + 32; //converts celcius to farenheit
+let newton = celcius * (33 / 100); //converts celcius to newton
+fahrenheit = Math.floor(farenheit); //rounds down farenheit to a whole number
+console.log(`The Temperature is ${celcius} degrees Celcius.`); //should display tempterature in celcius.
+console.log(`The Temperature is ${farenheit} degrees Farenheit.`); //should display temperature in farenheit
+newton = Math.floor(newton); //rounds newton to whole number
+console.log(`The Temperature is ${newton} degrees Newton`); //displays temperature in Newton
